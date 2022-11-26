@@ -7,9 +7,9 @@ A Typescript rewrite of [npmgraphbuilder](https://github.com/anvaka/npmgraphbuil
 With your favorite package manager:
 
 ```bash
-npm install npm-graph-builder
-pnpm install npm-graph-builder
-yarn add npm-graph-builder
+npm install @guilherssousa/npm-graph-builder
+pnpm install @guilherssousa/npm-graph-builder
+yarn add @guilherssousa/npm-graph-builder
 ```
 
 ## Demo
