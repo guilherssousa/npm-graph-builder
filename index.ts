@@ -1,13 +1,12 @@
 import npa from "npm-package-arg";
 import guessVersion from "./lib/guess-version";
 
-import { Graph } from "ngraph.graph";
-
 import {
   RegistryResponse,
   RegistryVersion,
   CustomRegistry,
   Registry,
+  Graph,
 } from "./types";
 
 type BuildGraphProps = {

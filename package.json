@@ -21,7 +21,6 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "ngraph.graph": "^20.0.1",
     "npm-package-arg": "^10.0.0",
     "semver": "^7.3.8"
   }
