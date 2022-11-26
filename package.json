@@ -1,0 +1,28 @@
+{
+  "name": "npm-graph-builder",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "ts-types": " tsc --emitDeclarationOnly --outDir dist",
+    "build": "rimraf dist && node ./scripts/esbuild.js && npm run ts-types"
+  },
+  "keywords": [],
+  "author": "Guilherme Sousa <guilherssousa@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/npm-package-arg": "^6.1.1",
+    "@types/semver": "^7.3.13",
+    "esbuild": "^0.15.15",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "ngraph.graph": "^20.0.1",
+    "npm-package-arg": "^10.0.0",
+    "semver": "^7.3.8"
+  }
+}
