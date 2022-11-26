@@ -1,7 +1,7 @@
 {
   "name": "npm-graph-builder",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern implementation of npmgraphbuilder.",
   "source": "index.ts",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -23,5 +23,16 @@
   "dependencies": {
     "npm-package-arg": "^10.0.0",
     "semver": "^7.3.8"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilherssousa/npm-graph-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guilherssousa/npm-graph-builder/issues"
+  },
+  "homepage": "https://github.com/guilherssousa/npm-graph-builder#readme"
 }
