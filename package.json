@@ -1,5 +1,5 @@
 {
-  "name": "npm-graph-builder",
+  "name": "@guilherssousa/npm-graph-builder",
   "version": "1.0.0",
   "description": "A modern implementation of npmgraphbuilder.",
   "source": "index.ts",
